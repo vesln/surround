@@ -1,0 +1,24 @@
+{
+    "name": "surround"
+  , "version": "0.0.0"
+  , "description": ""
+  , "keywords": ["surround", "filter"]
+  , "author": "Veselin Todorov <hi@vesln.com>"
+  , "devDependencies": {
+      "mocha": "0.3.3"
+    , "should": "0.3.2"
+    , "sinon": "1.3.1"
+  }
+  , "repository" : {
+      "type" : "git"
+    , "url" : "http://github.com/vesln/surround.git"
+  }
+  , "homepage": "http://github.com/vesln/surround"
+  , "scripts": {
+      "test": "make test"
+  }
+  , "main": "./lib/surround"
+  , "engines": { 
+      "node": ">= 0.6.0 < 0.7.0"
+  }
+}

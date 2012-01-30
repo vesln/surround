@@ -49,7 +49,8 @@ var foo = {
 };
 
 filter(foo, 'bar')
-  .before(function() {
+  .before(function(foo, bar, next) {
+    next(foo, bar);
     console.log('before');
   })
   .before(function() {
@@ -60,6 +61,6 @@ filter(foo, 'bar')
   });
 
 
-foo.bar('main');
+foo.bar('1st');
 foo.bar.clear();
 foo.bar('second');
