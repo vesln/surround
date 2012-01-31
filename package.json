@@ -1,7 +1,7 @@
 {
     "name": "surround"
   , "version": "0.0.0"
-  , "description": ""
+  , "description": "Surround a method, save a white bear."
   , "keywords": ["surround", "filter"]
   , "author": "Veselin Todorov <hi@vesln.com>"
   , "devDependencies": {
@@ -17,7 +17,7 @@
   , "scripts": {
       "test": "make test"
   }
-  , "main": "./lib/surround"
+  , "main": "./lib/index"
   , "engines": { 
       "node": ">= 0.6.0 < 0.7.0"
   }
