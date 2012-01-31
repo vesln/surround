@@ -4,7 +4,8 @@
 
 ## Description
 
-surround is small library without any dependencies that will 
+surround is small library without any dependencies that provides an easy way to surround
+a function with before and after functionality.
 	
 ## Synopsis
 
@@ -31,6 +32,9 @@ obj.bar();
 obj.bar.reset();
 
 ```
+
+Note that the return value of the main function is not filtered at all, so those are not filters.
+They are more special than filters.
 
 ## Requirements
 
