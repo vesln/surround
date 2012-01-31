@@ -1,7 +1,7 @@
 {
     "name": "surround"
   , "version": "0.0.0"
-  , "description": "Surround a method, save a white bear."
+  , "description": "Surround a method, save a polar bear."
   , "keywords": ["surround", "filter"]
   , "author": "Veselin Todorov <hi@vesln.com>"
   , "devDependencies": {
