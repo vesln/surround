@@ -1,27 +1,15 @@
-/*!
- * surround.
- * 
- * Veselin Todorov <hi@vesln.com>
- * MIT License.
- */
 
 /**
- * Support.
- */ 
-var Surround = require('../lib/surround');
-
-/**
- * The tested object.
- * 
- * @type {Object}
+ * Internal dependencies.
  */
-var index = require('../lib')
+
+var Surround = require('../lib/surround')
+  , index = require('../lib');
 
 /**
  * Simple object used for surrounding.
- * 
- * @type {Object}
  */
+
 var obj = {
   bar: function() {}
 };

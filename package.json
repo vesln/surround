@@ -1,24 +1,26 @@
 {
-    "name": "surround"
-  , "version": "0.0.1"
-  , "description": "Surround a method, save a polar bear."
-  , "keywords": ["surround", "filter"]
-  , "author": "Veselin Todorov <hi@vesln.com>"
-  , "devDependencies": {
-      "mocha": "0.3.3"
-    , "should": "0.3.2"
-    , "sinon": "1.3.1"
-  }
-  , "repository" : {
-      "type" : "git"
-    , "url" : "http://github.com/vesln/surround.git"
-  }
-  , "homepage": "http://github.com/vesln/surround"
-  , "scripts": {
-      "test": "make test"
-  }
-  , "main": "./lib/index"
-  , "engines": { 
-      "node": ">= 0.6.0 < 0.7.0"
+  "name": "surround",
+  "version": "0.0.1",
+  "description": "Surround a method, save a polar bear.",
+  "keywords": [
+    "surround",
+    "filter"
+  ],
+  "author": "Veselin Todorov <hi@vesln.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vesln/surround.git"
+  },
+  "homepage": "http://github.com/vesln/surround",
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "./lib/index",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "chai": "~1.4.2"
   }
 }
